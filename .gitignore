@@ -1,0 +1,34 @@
+.DS_Store
+node_modules
+/dist
+
+# Don't check auto-generated stuff into git
+coverage
+build
+junit
+generated
+node_modules
+.nyc_output
+stats.json
+dist
+files
+
+# local env files
+local.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
