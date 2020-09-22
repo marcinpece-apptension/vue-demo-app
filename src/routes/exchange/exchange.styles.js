@@ -82,6 +82,7 @@ export const FilterItem = styled('div', filterItemProps)`
   margin-left: 10px;
   padding: 10px;
   cursor: pointer;
+  transition: border .3s, color .3s;
 
   ${cond([
     [propEq('isActive', true), always(css`
