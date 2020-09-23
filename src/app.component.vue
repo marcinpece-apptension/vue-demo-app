@@ -15,7 +15,7 @@
 
 <script>
 import { isNil } from 'ramda';
-import { mapActions, mapGetters } from 'vuex';/*, mapGetters, mapMutations } from 'vuex'; */
+import { mapActions, mapGetters } from 'vuex';
 import { PREFIX as CURRENCY } from './modules/currency';
 import { CURRENCY as CURRENCY_SYMBOLS } from './utils/constants';
 import { FETCH_DATA } from './modules/currency/currency.actions';
